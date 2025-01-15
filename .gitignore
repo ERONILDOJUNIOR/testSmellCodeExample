@@ -1,0 +1,61 @@
+# Flutter/Dart Related
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+build/
+ios/Flutter/.last_build_id
+
+# Android
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/.idea
+**/android/local.properties
+**/android/app/proguard-rules.pro
+**/android/app/google-services.json
+**/android/key.properties
+
+# Xcode
+ios/Runner.xcworkspace/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/.generated/
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcworkspace/
+ios/.flutter-plugins-dependencies
+ios/.flutter-plugins
+ios/Flutter/App.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/flutter_export_environment.sh
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Others
+*.log
+*.tmp
+*.swp
+*.lock
+*.DS_Store
+pubspec.lock
+
+# Unit Test Results
+test/**/test-outputs/
+
+# MacOS Specific
+.DS_Store
+*.pyc
+*.pyo
+
+# Web
+web/.dart_tool/
+web/build/
