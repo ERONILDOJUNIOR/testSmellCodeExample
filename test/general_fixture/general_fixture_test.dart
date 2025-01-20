@@ -22,7 +22,7 @@ class UserDatabaseFixture {
 
   void createTestUser(String user) {
     db.addUser(user);
-  
+  }
 }
 
 void main() {
