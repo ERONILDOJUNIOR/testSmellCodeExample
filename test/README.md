@@ -3,7 +3,6 @@
 1 - Expection_handling
 2 - Lazy Test
 3 - Mystery Guest
-
-## Não fiz estes:
-
-1 - Expected Resolution Omission (ERO)
+4 - Resource Optimism
+5 - Sleepy Test
+6 - Unknow Test 

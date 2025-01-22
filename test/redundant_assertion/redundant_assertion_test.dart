@@ -7,17 +7,11 @@ void main() {
 
   test('Redundant Assertion Test 01', () {
     expect(cart.getTotalPrice(), equals(30));
-  });
-
-  test('Redundant Assertion Test 03', () {
     expect(cart.getTotalPrice(), equals(30));  // Repetição desnecessária
   });
 
   test('Redundant Assertion Test 02', () {
     expect(cart.getTotalItems(), equals(2));
-  });
-
-  test('Redundant Assertion Test 04', () {
     expect(cart.getTotalItems(), equals(2));  // Repetição desnecessária
   });
 }
